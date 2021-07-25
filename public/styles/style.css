@@ -1,0 +1,132 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100vw;
+  height: 100vh;
+
+  background-color: rgb(90, 200, 250);
+}
+
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: min(95vw, 550px);
+  margin-bottom: 2rem; 
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+}
+
+header a{
+  color: #fff;
+  text-decoration: none;
+}
+
+header span{
+  color: rgb(175, 82, 222);
+}
+
+.input-display{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: min(90vw, 540px);
+  height: 130px;
+  padding: 1rem;
+
+  border-radius: 10px;
+  background-color: #fff;
+  animation: up 1.5s;
+}
+
+.input-display input, button{
+  height: 4rem;
+  border: none;
+  border-radius: 2.5px;
+  outline-color: rgb(12, 142, 202);
+}
+
+.div-display{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.div-display label{
+  margin-bottom: 1rem;
+}
+
+.display-in{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: min(90%, 450px);
+  padding-left: 1.5rem;
+  font-size: 20px;
+  font-weight: 550;
+  border: 1px dashed #000;
+}
+
+.display-in span{
+  position: absolute;
+}
+.display-in span svg{
+  width: 35px;
+}
+
+.display-in input{
+  width: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.input-display button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  margin-left: .5rem;
+  background-color: rgb(100, 210, 255);
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.8rem;
+  color: #fff;
+  font-weight: 550;
+  font-size: 13px;
+  animation: up 1.5s;
+}
+
+.middleLanding{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.image-result{
+  width: min(800px, 100%);
+  padding: 1rem;
+  border-radius: 4px;
+  background-color: #fff;
+  animation: left 1s;
+}
+
+.image-result img{
+  width: 100%;
+}
